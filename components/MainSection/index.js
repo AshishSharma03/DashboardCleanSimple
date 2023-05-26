@@ -130,7 +130,7 @@ function MainSection() {
                   $2,78,864k total revenue
                 </Typography>
                 <Box sx={{ height: "200px", width: "100%" }}>
-                  <RevenueChart />
+                  <RevenueChart  data={[50000, 70000, 50000, 60000, 58000, 60000]}/>
                 </Box>
               </Stack>
             </Stack>

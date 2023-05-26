@@ -9,6 +9,8 @@ import {
   } from "@mui/material";
   import ArrowUpwardRoundedIcon from "@mui/icons-material/ArrowUpwardRounded";
 import CustomLinearProgress from "../../CustomComponents/CustomLinearProgress";
+
+
 function SaleProgressItems({title,subtitle,value,percent,color,backbarcolor,frontbarcolor,img}) {
   return (
     <Stack
