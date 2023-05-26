@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
-// const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
-import ReactApexChart from 'react-apexcharts';
+const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
+// import ReactApexChart from 'react-apexcharts';
 
 const RevenueChart = ({Data}) => {
   const [isClient, setIsClient] = useState(false);
